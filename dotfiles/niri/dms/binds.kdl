@@ -1,0 +1,5 @@
+binds {
+    Mod+Ctrl+O repeat=false hotkey-overlay-title="Quran Reminder: случайный аят" {
+        spawn-sh "__MR_DST__/trigger.sh"
+    }
+}
