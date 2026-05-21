@@ -1,6 +1,6 @@
 <div align="center">
 
-# niri-arch-dotfiles
+# niri-dotfiles
 
 **Снимок конфигурации [niri](https://github.com/YaLTeR/niri) для Arch Linux**  
 с плейсхолдерами путей, опциональным **Muslim-reminder** и идемпотентным `install-arch.sh`.
