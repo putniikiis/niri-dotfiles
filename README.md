@@ -6,9 +6,9 @@
 с плейсхолдерами путей, опциональным **Muslim-reminder** и идемпотентным `install-arch.sh`.
 
 ```
-               ╭──────────────────────────────────────────╮
-               │  Wayland · scroll tiling · KDL configs   │
-               ╰──────────────────────────────────────────╯
+                        ╭──────────────────────────────────────────╮
+                        │  Wayland · scroll tiling · KDL configs   │
+                        ╰──────────────────────────────────────────╯
 ```
 
 [![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)](https://archlinux.org/)
