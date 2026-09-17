@@ -68,6 +68,7 @@
 | `dotfiles/niri/dms/windowrules.kdl` | Правила окон |
 | `dotfiles/niri/dms/wpblur.kdl` | Размытие обоев |
 | `muslim-reminder/` | Quran Reminder (Python, `run.sh`, `trigger.sh`, venv) |
+| `dotfiles/inir-niri/install-wall-e-desk.sh` | Обои [Wall-E-Desk](https://github.com/JoshuaThadi/Wall-E-Desk) → `~/Pictures/wallpapers/Wall-E-Desk` |
 | `install-arch.sh` | Установка на Arch: копирование, подстановка путей, venv |
 | `scripts/verify.sh` | Локальная проверка и пробная установка в `/tmp` |
 | `.gitignore` | Исключения для venv, кэша Python, pid-файлов |
@@ -255,6 +256,19 @@ NIRI_DOTFILES_MR_DST="$HOME/.local/share/muslim-reminder" \
 | `Mod+Shift+/` | Оверлей горячих клавиш niri |
 
 Полный список — в `dotfiles/niri/config.kdl` и [документации niri](https://niri-wm.github.io/niri/Configuration:-Introduction).
+
+---
+
+## Обои Wall-E-Desk
+
+Коллекция [JoshuaThadi/Wall-E-Desk](https://github.com/JoshuaThadi/Wall-E-Desk) (~2.8 GiB: Anime, landscape, Live Wallpapers, Pixel-Art, Sci-Fi):
+
+```bash
+./dotfiles/inir-niri/install-wall-e-desk.sh
+```
+
+Появится папка `~/Pictures/wallpapers/Wall-E-Desk/`. В iNiR: **Ctrl+Alt+T** и выбери картинку оттуда.  
+Обновление с сохранением `.git`: `KEEP_GIT=1 ./dotfiles/inir-niri/install-wall-e-desk.sh`.
 
 ---
 
