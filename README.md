@@ -270,6 +270,16 @@ NIRI_DOTFILES_MR_DST="$HOME/.local/share/muslim-reminder" \
 Появится папка `~/Pictures/wallpapers/Wall-E-Desk/`. В iNiR: **Ctrl+Alt+T** и выбери картинку оттуда.  
 Обновление с сохранением `.git`: `KEEP_GIT=1 ./dotfiles/inir-niri/install-wall-e-desk.sh`.
 
+### Live / анимированные обои «замирают»
+
+На ноутбуке iNiR по умолчанию ставит `pauseAnimationOnBattery: true` — видео и GIF на батарее показывают только первый кадр. Исправление:
+
+```bash
+./dotfiles/inir-niri/fix-live-wallpapers.sh
+```
+
+Потом **Ctrl+Alt+T** → `Wall-E-Desk/Live Wallpapers` → любой `.mp4`.
+
 ---
 
 ## После установки
